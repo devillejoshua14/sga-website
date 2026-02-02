@@ -120,4 +120,12 @@ export const galleryImages: GalleryImage[] = [
     category: "fashion",
     caption: "Another day, another fit — January 2026",
   },
+  {
+    id: "13",
+    type: "instagram",
+    embedUrl: "https://www.instagram.com/p/DTAk5ijgNAu/",
+    alt: "SGA off court",
+    category: "offcourt",
+    caption: "Off the clock",
+  },
 ];
