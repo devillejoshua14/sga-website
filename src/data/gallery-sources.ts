@@ -65,23 +65,6 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: "6",
-    type: "twitter",
-    embedUrl: "https://x.com/SleeperThunder/status/1989875131489960420",
-    alt: "SGA 33 points in 3 quarters — stat line",
-    category: "highlights",
-    caption: "33 points in 3 quarters — another efficient night",
-  },
-  {
-    id: "7",
-    type: "instagram",
-    embedUrl: "https://www.instagram.com/p/DSX2jGxDREo/",
-    alt: "SGA proving why he is the best",
-    category: "highlights",
-    caption: "Proving why he's the best in the league",
-    featured: true,
-  },
-  {
-    id: "8",
     type: "instagram",
     embedUrl: "https://www.instagram.com/p/C0aNlNgrslP/",
     alt: "SGA 2024 season reflections",
@@ -89,7 +72,7 @@ export const galleryImages: GalleryImage[] = [
     caption: "2024 — looking back on the journey",
   },
   {
-    id: "9",
+    id: "7",
     type: "twitter",
     embedUrl: "https://x.com/alessio_nba/status/1966526322588487939",
     alt: "SGA 2025 Finals MVP highlights compilation",
@@ -97,7 +80,7 @@ export const galleryImages: GalleryImage[] = [
     caption: "Finals MVP highlights reel",
   },
   {
-    id: "10",
+    id: "8",
     type: "instagram",
     embedUrl: "https://www.instagram.com/p/C0fBevjy5Y2/",
     alt: "SGA fashion fit",
@@ -105,7 +88,7 @@ export const galleryImages: GalleryImage[] = [
     caption: "Pure fashion — SGA's signature style",
   },
   {
-    id: "11",
+    id: "9",
     type: "instagram",
     embedUrl: "https://www.instagram.com/p/DUHrm3YEYnr/",
     alt: "SGA latest fashion fit",
@@ -113,7 +96,7 @@ export const galleryImages: GalleryImage[] = [
     caption: "Fresh fit — January 2026",
   },
   {
-    id: "12",
+    id: "10",
     type: "instagram",
     embedUrl: "https://www.instagram.com/p/DUCZ6G5kfE3/",
     alt: "SGA fashion fit",
@@ -121,7 +104,7 @@ export const galleryImages: GalleryImage[] = [
     caption: "Another day, another fit — January 2026",
   },
   {
-    id: "13",
+    id: "11",
     type: "instagram",
     embedUrl: "https://www.instagram.com/p/DTAk5ijgNAu/",
     alt: "SGA off court",
