@@ -7,7 +7,7 @@ export default function HeroVideo() {
   const isMobile = useMediaQuery("(max-width: 768px)");
 
   return (
-    <section className="relative h-[80vh] w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
       {/* Video / Image Background */}
       <div className="absolute inset-0">
         {!isMobile ? (
@@ -36,7 +36,7 @@ export default function HeroVideo() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex h-full items-end pb-12 pt-24 md:pb-16">
+      <div className="relative z-10 flex h-full items-end pb-16 pt-28 md:pb-20">
         <div className="mx-auto w-full max-w-7xl px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -46,7 +46,7 @@ export default function HeroVideo() {
             <p className="text-sm font-light uppercase tracking-[0.4em] text-accent-warm">
               Oklahoma City Thunder / #2
             </p>
-            <h1 className="mt-3 font-display text-5xl uppercase leading-none tracking-wider text-white md:text-6xl lg:text-7xl">
+            <h1 className="mt-3 font-display text-4xl uppercase leading-none tracking-wider text-white sm:text-5xl md:text-6xl lg:text-7xl">
               Shai
               <br />
               <span className="text-accent-pop">Gilgeous-</span>
