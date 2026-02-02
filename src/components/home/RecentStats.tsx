@@ -6,10 +6,10 @@ const lastGameStats = {
   opponent: "@. Denver Nuggets",
   result: "Live Now",
   stats: [
-    { label: "PTS", value: "31" },
+    { label: "PTS", value: "34" },
     { label: "REB", value: "5" },
     { label: "AST", value: "12" },
-    { label: "STL", value: "1" },
+    { label: "STL", value: "2" },
     { label: "MIN", value: "30" },
   ],
 };
