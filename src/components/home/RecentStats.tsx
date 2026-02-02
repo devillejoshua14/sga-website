@@ -3,7 +3,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 
 const lastGameStats = {
   date: "Feb 1, 2026",
-  opponent: "@. Denver Nuggets",
+  opponent: "@ Denver Nuggets",
   result: "W 121-111",
   stats: [
     { label: "PTS", value: "34" },
