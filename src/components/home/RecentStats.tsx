@@ -8,9 +8,9 @@ const lastGameStats = {
   stats: [
     { label: "PTS", value: "34" },
     { label: "REB", value: "5" },
-    { label: "AST", value: "12" },
+    { label: "AST", value: "13" },
     { label: "STL", value: "2" },
-    { label: "MIN", value: "30" },
+    { label: "MIN", value: "32" },
   ],
 };
 
