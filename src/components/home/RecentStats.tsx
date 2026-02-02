@@ -10,7 +10,7 @@ const lastGameStats = {
     { label: "REB", value: "5" },
     { label: "AST", value: "13" },
     { label: "STL", value: "2" },
-    { label: "MIN", value: "32" },
+    { label: "MIN", value: "33" },
   ],
 };
 
