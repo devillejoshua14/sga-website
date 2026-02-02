@@ -1,26 +1,71 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #1a1a1a;
+  --background-dark: #111111;
+  --foreground: #ffffff;
+  --accent-warm: #c4a882;
+  --accent-warm-light: #d4bc9a;
+  --accent-warm-dark: #a8906e;
+  --accent-pop: #007AC1;
+  --accent-pop-light: #1a94d4;
+  --accent-pop-dark: #00639e;
+  --text-primary: #ffffff;
+  --text-secondary: #b0b0b0;
+  --text-muted: #666666;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-dark: var(--background-dark);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-accent-warm: var(--accent-warm);
+  --color-accent-warm-light: var(--accent-warm-light);
+  --color-accent-warm-dark: var(--accent-warm-dark);
+  --color-accent-pop: var(--accent-pop);
+  --color-accent-pop-light: var(--accent-pop-light);
+  --color-accent-pop-dark: var(--accent-pop-dark);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-bebas-neue);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--accent-pop);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
 }
