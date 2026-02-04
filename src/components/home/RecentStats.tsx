@@ -2,15 +2,15 @@ import ScrollReveal from "@/components/ui/ScrollReveal";
 import SectionHeading from "@/components/ui/SectionHeading";
 
 const lastGameStats = {
-  date: "Feb 1, 2026",
-  opponent: "@ Denver Nuggets",
-  result: "W 121-111",
+  date: "Feb 3, 2026",
+  opponent: "vs. Orlando Magic",
+  result: "W 92-128",
   stats: [
-    { label: "PTS", value: "34" },
+    { label: "PTS", value: "22" },
     { label: "REB", value: "5" },
-    { label: "AST", value: "13" },
+    { label: "AST", value: "9" },
     { label: "STL", value: "2" },
-    { label: "MIN", value: "33" },
+    { label: "MIN", value: "28" },
   ],
 };
 
