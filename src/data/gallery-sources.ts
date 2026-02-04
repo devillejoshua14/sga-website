@@ -111,4 +111,12 @@ export const galleryImages: GalleryImage[] = [
     category: "offcourt",
     caption: "Off the clock",
   },
+  {
+    id: "12",
+    type: "instagram",
+    embedUrl: "https://www.instagram.com/p/DUUK0IEDN2Y/?hl=en&img_index=1",
+    alt: "SGA Fashion Fit",
+    category: "fashion",
+    caption: "Full Coat Press"
+  }
 ];
